@@ -77,6 +77,52 @@ print("Hi, " + "Stephanie" + "!")
 print('Hi, ' + 'Melanie' +'!' )
 # //////////////
 
-# //Variables//
+# Variables
 
+# Variables are pieces of memory that store our data.
+
+# When code runs into a variable, Python retrieves the value assigned to the variable for the function (or task) being executed.
+
+# We create a variable by using an equal sign to assign a value.
+
+# Create a variable called "name" and assign your first name as the value.
+# Then print the variable.
+# Reminder to put your name value in quotes since it is a string.
+name = 'Stephanie'
+print(name)
+
+# Practice:
+name = 'Melanie'
+print(name)
+
+# Variable names can be a single letter, a word, or several words separated by underscores, all in lowercase.
+# Below are some examples:
+w = '"w" is a single letter'
+women = '"women" is a word'
+women_who_code = '"women_who_code" is words shown in snake_case'
+
+print(w) 
+print(women) 
+print(women_who_code)
+
+# Create a variable and assign a value to it.
+# Practice:
+dog = 'winnie'
+print(dog)
+
+# Earlier we concatenated three strings together.
+
+# We can concatenate variables with strings assuming the value inside the variable is also a string.
+
+# If any of the data are strings, then all need to be strings. We will see in a few minutes how to concatenate an integer or float with strings using a very simple function.
+
+# Create a variable and assign a string value to it.
+# Then use a print function to concatenate strings and the variable together.
+# We are going to revise our earlier code to replace our names with the variable value.
+name = 'Stephanie'
+print("Hi, " + name + "!")
+
+# Practice:
+name = 'melanie'
+print('Hi, ' + name + '!') 
 
