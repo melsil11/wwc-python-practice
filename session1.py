@@ -126,3 +126,21 @@ print("Hi, " + name + "!")
 name = 'melanie'
 print('Hi, ' + name + '!') 
 
+# Integers
+
+# Integers are whole numbers. 
+
+# Integers can be positive or negative.
+
+# Examples: 3, 27, 28384723, -10, -234
+print(12)
+# Practice:
+print(21)
+# Create a variable and assign an integer value.
+x = 10
+print(x)
+
+# Practice:
+number = 21
+print(number)
+
