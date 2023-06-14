@@ -144,3 +144,34 @@ print(x)
 number = 21
 print(number)
 
+# Floating Point Numbers
+
+# Floating point numbers, or floats, are numbers with decimal points.
+
+# Floats can be positive or negative.
+
+# Examples: 3.1415926, 1.0, 100.5, -5.5, -233.33
+
+print(12.5)
+# Practice:
+print(1.12)
+# Create a variable and assign a floating point number value to it.
+y = 3.1415926
+print(y)
+z = -3232.25
+print(z)
+# Practice:
+age = 21.5
+print(age)
+# Integer and floating  point numbers cannot concatenate with strings without first being converted to a string.
+
+# To convert an integer or float to a string, we can use the str() function.
+# Create a variable called "rice", or your favorite food, and assign an integer value to it.
+# Next print a brief sentence using concatenation and the str() function to print the value of the variable.
+rice = 2
+print("I would like " + str(rice) + " order(s) of rice, please.") 
+
+# Hint: Note the space after "like" and before "order(s)".
+# Practice:
+apples = 3
+print('i want ' + str(apples) + ' apples')
