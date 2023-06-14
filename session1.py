@@ -175,3 +175,21 @@ print("I would like " + str(rice) + " order(s) of rice, please.")
 # Practice:
 apples = 3
 print('i want ' + str(apples) + ' apples')
+
+# Type Function
+# We can quickly check the data type of the value that is assigned to a variable using the type() function.
+integer1 = 314
+print(type(integer1)) 
+
+float1 = 3.14
+print(type(float1)) 
+
+string1 = "Excellent work, everyone!"
+print(type(string1))
+# Practice:
+number = 21
+print(type(number))
+float1 = 21.5
+print(type(float1))
+strings = " I love python"
+print(type(strings))
