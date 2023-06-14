@@ -193,3 +193,30 @@ float1 = 21.5
 print(type(float1))
 strings = " I love python"
 print(type(strings))
+
+# Arithmetic Operators
+
+# + addition
+# - subtraction
+# * multiplication
+# / division
+# // integer division
+# % remainder
+# ** exponentiation
+# - negation
+
+print(11+22+33+44)
+print(100 * 55)
+
+num1 = 2
+num2 = 3
+print(num1 + num2) # addition
+print(num1 - num2) # subtraction
+print(num1 * num2) # multiplication
+print(num1 / num2) # division
+
+# practice
+# Practice:
+numb1 = -1
+numb2 = 3
+print(numb1 - numb2)
