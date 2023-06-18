@@ -201,3 +201,72 @@ if __name__ == '__main__':
   pet_data()
 
 # Note that the input function automatically converts the inputted values into strings. For the pet_age variable, we inputted an number. But the input function processed it as a string, and the value concatenated with the strings without error.
+
+# Constructor Functions
+# In Session 1, we practiced concatenation when a variable is assigned an integer or float value. Since we cannot concatenate an integer or a float with a string, we demonstrated how to specify the type using the str() function.
+
+# Let's explore this concept further...
+
+# Using a str(), int(), or float() function constructs a string, integer, or float type. This is known as casting, and these functions are called constructor functions.
+
+# Create a variable called "rice", or your favorite food, and assign an integer value to it.
+# Next print a brief sentence using concatenation and the str() function to print the value of the variable.
+
+rice = 2
+print("I would like " + str(rice) + " order(s) of rice, please.")
+
+# Construct an integer using the int() function.
+a = 3.14
+print(int(a))
+
+b = "3"
+print(int(b))
+
+# Practice:
+
+# Construct a float using the float() function.
+c = 3
+print(float(c))
+
+d = "3"
+print(float(d))
+
+# Practice:
+
+# Construct a string using the str() function.
+
+e = 3
+print(str(e))
+
+# practice
+
+# Construct a string using the str() function.
+
+e = 3
+print(str(e))
+
+f = 3.0
+print(str(f))
+
+# practice
+
+# Create a variable and assign an integer value to it.
+# Check the type of the variable.
+# Then print the value inside the variable as a string by using the str() function.
+
+cats = 100
+print(type(cats))
+print(str(cats))
+
+# Note that we did not actually change the type of the value assigned to the "cats" variable.
+# If we print type(cats), we see the value within the variable is still an integer.
+
+print(type(cats))
+
+# Create a variable "cats_str" that constructs a string from the "cats" variable.
+cats = 100
+cats_str = str(cats)
+print(cats_str)
+print(type(cats_str))
+
+# practice 
