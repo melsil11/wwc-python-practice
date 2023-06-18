@@ -149,4 +149,55 @@ print(fav_food)
 fav_dog_breed = input(" Enter your favorite dog breed: ")
 print(fav_dog_breed)
 
+# Input Functions & Concatenation
+# In Session 1, we practiced concatenation by creating a variable, assigning a string value to it, and then concatenating with other strings.
 
+# Now, we will create variables with input functions and concatenate the result using the print function.
+
+
+# Create a variable and assign a string value to it.
+# Then use a print function to concatenate strings and the variable together.
+
+name = 'Stephanie'
+print("Hi, " + name + "!")
+
+name = input("What is your name? ")
+print("Hi, " + name + "!")
+
+# practice
+
+age = input(" How old are you? ")
+print("I am " + age + " years old.")
+
+# Define a function "pet1_data"
+# Create the variables "pet1_type", "pet1_name", and "pet1_age".
+# Print the data results to the user.
+
+def pet1_data():
+  pet1_type = input("What type of animal is your pet? ")
+  pet1_name = input("What is your pet's name? ")
+  pet1_age = input("What is your pet's age (in years)? ")
+
+  print("Your " + pet1_type + "'s name is " + pet1_name + ".")
+  print(pet1_name + " is " + pet1_age + " year(s) old.")
+
+if __name__ == '__main__':
+  pet1_data()
+
+
+# Define a function "pet_data"
+# Create the variables "pet_type", "pet_name", and "pet_age".
+# Print the data results to the user.
+# Practice:
+def pet_data():
+    pet_type = input("What type of pet do you have? ")
+    pet_name = input("What is your pets name? ")
+    pet_age = input("How old is your pet? ")
+
+    print("your " + pet_type + "'s name is " + pet_name + ".")
+    print( pet_name + " is " + pet_age + " years old.")
+
+if __name__ == '__main__':
+  pet_data()
+
+# Note that the input function automatically converts the inputted values into strings. For the pet_age variable, we inputted an number. But the input function processed it as a string, and the value concatenated with the strings without error.
