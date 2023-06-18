@@ -200,7 +200,7 @@ print(type(strings))
 # - subtraction
 # * multiplication
 # / division
-# // integer division
+# // integer division -use if needed the resulting number to be an interger
 # % remainder
 # ** exponentiation
 # - negation
