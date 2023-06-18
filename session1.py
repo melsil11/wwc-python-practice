@@ -170,6 +170,7 @@ print(age)
 # Next print a brief sentence using concatenation and the str() function to print the value of the variable.
 rice = 2
 print("I would like " + str(rice) + " order(s) of rice, please.") 
+# I would like 2 order(s) of rice, please.
 
 # Hint: Note the space after "like" and before "order(s)".
 # Practice:

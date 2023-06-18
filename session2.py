@@ -94,9 +94,11 @@ if __name__ == '__main__':
 # Remember to indent the print function using the tab key on your keyboard.
 # Practice:
 
+def new_main():
+  print("Hello World!")
 
 if __name__ == '__main__':
- new_main()
+  new_main()
 
 # Define a function called "add_two_numbers".
 # Create two variables and assign integer values to them.
@@ -115,6 +117,12 @@ if __name__ == '__main__':
 # Multiply the numbers and print the result.
 # Practice:
 
+def multiply_two_numbers():
+    number1 = 2
+    number2 = 5
+    print(number1 * number2)
 
 if __name__ == '__main__':
   multiply_two_numbers()
+
+  
