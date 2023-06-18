@@ -270,3 +270,26 @@ print(cats_str)
 print(type(cats_str))
 
 # practice 
+
+
+# Putting it together 
+
+# The following example wraps up several of the concepts we learned today: defining functions, input functions, casting and constructor functions, and concatenation.
+
+
+# Define a function "average_two_numbers".
+# Collect two numbers from the user and specify the type as float.
+# Create a variable to calculate the average of the two numbers.
+# Print a statement that concatenates the two numbers and the average.
+
+def average_two_numbers():
+  print("Please input two numbers. The program will average the numbers.")
+  user_number1 = int(input("Enter your first number: "))
+  user_number2 = int(input("Enter your second number: "))
+  average = (user_number1 + user_number2) / 2
+  print("The average of " + str(user_number1) + " and " + str(user_number2) + " is " + str(average) + ".")
+
+if __name__ == '__main__':
+  average_two_numbers()
+
+#   Practice 
