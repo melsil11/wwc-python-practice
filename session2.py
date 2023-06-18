@@ -118,9 +118,9 @@ if __name__ == '__main__':
 # Practice:
 
 def multiply_two_numbers():
-    number1 = 2
-    number2 = 5
-    print(number1 * number2)
+    number_1 = 2
+    number_2 = 5
+    print(number_1 * number_2)
 
 if __name__ == '__main__':
   multiply_two_numbers()
@@ -137,11 +137,16 @@ print(name)
 
 # practice
 
+age = input("How old are you? ")
+print(age)
 
 
 fav_food = input("Enter your favorite food: ")
 print(fav_food)
 
 # practice
+
+fav_dog_breed = input(" Enter your favorite dog breed: ")
+print(fav_dog_breed)
 
 
