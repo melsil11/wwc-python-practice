@@ -125,4 +125,23 @@ def multiply_two_numbers():
 if __name__ == '__main__':
   multiply_two_numbers()
 
-  
+
+# Input Functions
+# Input functions ask the user to provide information. The input function is written as input(). We will put questions formatted as strings between the parantheses.
+
+# Create a variable "name" and assign an input function within it that asks for the user's name.
+# Then print the name to the user.
+
+name = input("What is your name? ")
+print(name)
+
+# practice
+
+
+
+fav_food = input("Enter your favorite food: ")
+print(fav_food)
+
+# practice
+
+
