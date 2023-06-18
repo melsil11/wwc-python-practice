@@ -200,7 +200,7 @@ def pet_data():
 if __name__ == '__main__':
   pet_data()
 
-# Note that the input function automatically converts the inputted values into strings. For the pet_age variable, we inputted an number. But the input function processed it as a string, and the value concatenated with the strings without error.
+# Note that the input function automatically converts the inputted values into strings. For the pet_age variable, we inputted a number. But the input function processed it as a string, and the value concatenated with the strings without error.
 
 # Constructor Functions
 # In Session 1, we practiced concatenation when a variable is assigned an integer or float value. Since we cannot concatenate an integer or a float with a string, we demonstrated how to specify the type using the str() function.
@@ -223,7 +223,8 @@ b = "3"
 print(int(b))
 
 # Practice:
-
+kitty = 23.56
+print(int(kitty))
 # Construct a float using the float() function.
 c = 3
 print(float(c))
@@ -232,7 +233,8 @@ d = "3"
 print(float(d))
 
 # Practice:
-
+kitty_cat = 23
+print(float(kitty_cat))
 # Construct a string using the str() function.
 
 e = 3
@@ -249,6 +251,8 @@ f = 3.0
 print(str(f))
 
 # practice
+cat1 = 100 
+print(str(cat1))
 
 # Create a variable and assign an integer value to it.
 # Check the type of the variable.
@@ -269,8 +273,11 @@ cats_str = str(cats)
 print(cats_str)
 print(type(cats_str))
 
-# practice 
-
+# Practice:
+dogs = 100 
+dogs_str = str(dogs)
+print(dogs_str)
+print(type(dogs_str))
 
 # Putting it together 
 
@@ -293,3 +300,13 @@ if __name__ == '__main__':
   average_two_numbers()
 
 #   Practice 
+def average_two_numbers():
+  print("Please input two numbers. The program will average the numbers. ")
+  user_num1 = int(input("Enter your first number: "))
+  user_num2 = int(input("Enter second number: "))
+  average = (user_num1 + user_num2) / 2
+  print("The average of " + str(user_num1) + " and " + str(user_num2) + " is " + str(average) + ".")
+
+
+if __name__ == '__main__':
+  average_two_numbers()
