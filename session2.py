@@ -51,3 +51,70 @@ print(awesome_integer)
 # Floating point numbers, or floats, are numbers with decimal points. Can be positive or negative.Examples: 3.1415926, 1.0, 100.5, -5.5, -233.33
 awesome_float = 3.14
 print(awesome_float)
+
+
+
+# Introduction to Functions
+
+# We learned about several built-in Python functions in Session 1:
+# *   print()
+# *   len()
+# *   str()
+# *   type()
+
+# Functions are blocks of code that run when called and perform a specific task. Functions are beneficial because we can reuse code for repetitive tasks.
+
+# When defining our own functions, we begin with the "def" keyword, followed by the function name, parantheses (), and a colon (:).
+
+# Function names can be a word or several words separated by underscores (snake_case).
+
+#  EXAMPLES: 
+# def women():
+# def women_who_code():
+
+# Indentation is very important in Python. The next line below the function definition must be indented using the tab key.
+
+# Define a function called "main".
+# Within the main function, write a print function that prints "Hello world!" to the user.
+# Remember to indent the print function using the tab key on your keyboard.
+
+def main():
+  print('Hello world!')
+
+if __name__ == '__main__':
+  main()
+
+# The above code (if __name__ ...) is telling Python which function to start with.
+# This will be important when we start working with parameters and returns.
+# We will practice using it in this session.
+
+
+# Define a function called "new_main".
+# Within the main function, write a print function that prints "Hello world!" to the user.
+# Remember to indent the print function using the tab key on your keyboard.
+# Practice:
+
+
+if __name__ == '__main__':
+ new_main()
+
+# Define a function called "add_two_numbers".
+# Create two variables and assign integer values to them.
+# Print the sum of the numbers.
+
+def add_two_numbers():
+  number1 = 55
+  number2 = 10
+  print(number1 + number2)
+
+if __name__ == '__main__':
+  add_two_numbers()
+
+  # Define a function called "multiply_two_numbers".
+# Create two variables and assign integer values to them.
+# Multiply the numbers and print the result.
+# Practice:
+
+
+if __name__ == '__main__':
+  multiply_two_numbers()
