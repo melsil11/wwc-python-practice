@@ -177,12 +177,13 @@ if __name__ == '__main__':
 
 # Example:
 
-if your cat is hungry:
-  feed her
-elif your cat is sleepy:
-  give her a comfortable bed
-else:
-  give your cat a hug (if you dare)
+# if your cat is hungry:
+#   feed her
+# elif your cat is sleepy:
+#   give her a comfortable bed
+# else:
+#   give your cat a hug (if you dare)
+
 if kitty_cat == 'hungry':
   print('Your cat is hungry. Please feed her.')
 elif kitty_cat == 'sleepy':
@@ -218,6 +219,15 @@ else:
   print('Your number is ' + str(user_number) + '.')
 
 # Practice:
+user_number =int(input('Please choose a nunmber between 1 and 100: '))
+print('Your number is ' + str(user_number) + '.')
+if user_number < 1:
+  print('Your number is less than 1. Please try again')
+elif user_number > 100:
+  print('Your number is greater than 100. Please try again.')
+else: 
+  print("You chose the number" + str(user_number) + '.')
+
 
 # Create a program that asks for the user to choose an extra pizza topping.
 # If the user's input matches the first choice, print a corresponding response.
@@ -239,8 +249,25 @@ else:
   print('Your topping choice is not on the menu.')
 
 # Practice:
+# Create a program that asks for the user to choose an extra pizza topping.
+# If the user's input matches the first choice, print a corresponding response.
+# Else if the user input matches several other food choices, print a corresponding response.
+# Else, print a statement saying the user's choice is not on the menu.
 
-# Putting It All Together
+user_toppping = input("Please choose a topping!")
+print('You chose ' + user_toppping + '.')
+if user_toppping == 'pineapple':
+  print("Your pineapple topping has been added to the pizza.")
+elif user_toppping == 'peppers':
+  print('Your peppers are added to the pizza')
+elif user_toppping == 'mushrooms':
+  print('Your mushrooms have been added to your pizza.')
+elif user_toppping == 'chicken':
+  print('Your ' + user_toppping + ' has been added to the pizza.')
+else:
+  print('We do not carry your choice. Please choose another option.')
+
+# ///// Putting It All Together
 
 # The following example wraps up several of the concepts we learned today and during previous sessions: logical conditions, if/else statements, defining functions, input functions, casting and constructor functions, and concatenation.
 
@@ -257,4 +284,34 @@ def addition_quiz():
 if __name__ == '__main__':
   addition_quiz()
 
-# Practice:
+#  //////// Boolean Operators
+# We can use "and" or "or" to evaluate more than one condition in an if statement. These are Boolean operators.
+
+# In the below example, note that the variable user_number appears in both conditions:
+
+# user_number < 1
+# user_number > 50
+
+# Use the "or" operator to evaluate whether the number is less than 1 and greater than 50.
+
+user_number = int(input('Choose a number between 1 and 50: '))
+if user_number < 1 or user_number > 50:
+  print('Your number is not between 1 and 50. Please try again.')
+else:
+  print('Your number is ' + str(user_number) + '.')
+
+# For the and operator, both Boolean values must be True for the condition to evaluate to True:
+
+# True and True = True
+# True and False = False
+# False and True = False
+# False and False = False
+# For the or operator, only one of the Boolean values must be True for the condition to evaluate to True:
+
+# True or True = True
+# True or False = True
+# False or True = True
+# False or False = False
+
+True and True == True
+False or True == True
