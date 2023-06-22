@@ -161,3 +161,100 @@ def game_prize():
 if __name__ == '__main__':
   game_prize()
 
+#   //////   If / Elif / Else Statements   /////
+
+# If statements evaluate whether a condition is True or False and then executes the code if the condition evaluates to True.
+
+# If the condition evaluates to False, Python then moves to the first "elif" condition and evaluates whether this condition is True or False. If True, the code is executed. Otherwise, Python moves to the next "elif" condition or to the else statement, whichever is next.
+
+# If all if/elif conditions evaluate to False, Python then executes the code underneath the "else:" statement.
+
+# If statements are written with the "if" keyword, followed by a condition and a colon (:). The code we want to execute is indented in the line(s) below it.
+
+# "Elif" is short for "else if". The elif statement is written with the "elif" keyword, followed by a condition and a colon (:). The code we want to execute is indented in the line(s) below it.
+
+# # The else statement is written with the "else" keyword followed by a colon (:). The code we want to execute is indented in the line(s) below it.
+
+# Example:
+
+if your cat is hungry:
+  feed her
+elif your cat is sleepy:
+  give her a comfortable bed
+else:
+  give your cat a hug (if you dare)
+if kitty_cat == 'hungry':
+  print('Your cat is hungry. Please feed her.')
+elif kitty_cat == 'sleepy':
+  print('Your cat is sleepy. Please give her a comfortable bed.')
+else:
+  print('Give your cat a hug (if you dare).')
+
+# Run the following code.
+# If the condition that the cat is hungry evaluates to True, then user will be instructed to feed the cat.
+# Else if the condition that the cat is sleepy evaluates to True, then the user should give the cat a bed.
+# Else, if both conditions evaluate to False, then the user should give the cat a hug.
+
+kitty_cat = 'sleepy'
+if kitty_cat == 'hungry':
+  print('Your cat is hungry. Please feed her.')
+elif kitty_cat == 'sleepy':
+  print('Your cat is sleepy. Please give her a comfortable bed.')
+else:
+  print('Give your cat a hug (if you dare).')
+
+# Create a program that asks the user to choose a number between 1 and 50.
+# If the user's number is less than 1, print a statement informing the user.
+# Else if the user's number is greater than 50, print a statement informing the user.
+# Else, print a statement showing the user's number.
+
+user_number = int(input('Choose a number between 1 and 50: '))
+print('Your number is ' + str(user_number) + '.')
+if user_number < 1:
+  print('Your number is less than 1. Please try again.')
+elif user_number > 50:
+  print("Your number is greater than 50. Please try again.")
+else:
+  print('Your number is ' + str(user_number) + '.')
+
+# Practice:
+
+# Create a program that asks for the user to choose an extra pizza topping.
+# If the user's input matches the first choice, print a corresponding response.
+# Else if the user input matches several other food choices, print a corresponding response.
+# Else, print a statement saying the user's choice is not on the menu.
+
+pizza_topping1 = input('Choose an extra topping: artichokes, broccoli, olives, peppers, spinach ')
+if pizza_topping1 == 'artichokes':
+  print('Artichokes have been added to your pizza order!')
+elif pizza_topping1 == 'broccoli':
+  print('Broccoli has been added to your pizza order!')
+elif pizza_topping1 == 'olives':
+  print('Olives have been added to your pizza order!')
+elif pizza_topping1 == 'peppers':
+  print('Peppers have been added to your pizza order!')
+elif pizza_topping1 == 'spinach':
+  print('Spinach has been added to your pizza order!')
+else:
+  print('Your topping choice is not on the menu.')
+
+# Practice:
+
+# Putting It All Together
+
+# The following example wraps up several of the concepts we learned today and during previous sessions: logical conditions, if/else statements, defining functions, input functions, casting and constructor functions, and concatenation.
+
+def addition_quiz():
+  number1 = 10
+  number2 = 20
+  sum = number1 + number2
+  user_number = int(input('What is the sum of ' + str(number1) + ' + ' + str(number2) + '? '))
+  if user_number == sum:
+    print('You are correct! Amazing job!')
+  else:
+    print('Excellent try! You are so close!')
+
+if __name__ == '__main__':
+  addition_quiz()
+
+# Practice:
